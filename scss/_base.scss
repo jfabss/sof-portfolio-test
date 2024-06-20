@@ -1,0 +1,49 @@
+// partial for base styles and resets such as global variables
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $Tan;
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    color: $Black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: $Black;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    padding-left: 26px;
+}
+
+ul li::before {
+    content: "    ";
+    position: absolute;
+    left: 0;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+}

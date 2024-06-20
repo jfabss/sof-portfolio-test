@@ -1,0 +1,56 @@
+// sll animations / effects
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInDarkening {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 75%;
+    }
+}
+
+@keyframes fadeOutDarkening {
+    from {
+        opacity: 75%;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+@keyframes MobileMenuSlideOut {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes MobileMenuSlideIn {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translateX(100vw);
+    }
+}

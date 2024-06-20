@@ -1,0 +1,24 @@
+// partial for different screen sizes
+
+// small screens (portrait)
+@media (max-width: 1000px) {
+
+    .navbar-div {
+        display: none;
+    }
+
+    .project-selection-div {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .mobile-navbar-div {
+        display: none;
+    }
+
+    .mobile-project-title {
+        display: none;
+    }
+}

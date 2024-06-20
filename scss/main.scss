@@ -1,0 +1,11 @@
+// main SCSS file for importing partials
+
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'header';
+@import 'header-mobile';
+@import 'projectsPage';
+@import 'components';
+@import 'media-queries';
+@import 'animations';

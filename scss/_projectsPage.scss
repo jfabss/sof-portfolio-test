@@ -1,0 +1,49 @@
+// partial for project page components
+
+.project-selection-div {
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    animation: fadeIn 0.3s forwards;
+}
+
+.project-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.projects-bar {
+    border: none;
+    width: 80%;
+    height: 2px;
+    background-color: $Black;
+    margin: auto;
+
+}
+
+.project-div {
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#project-img {
+    width: 100%;
+    animation: fadeIn 0.5s forwards;
+}
+
+.main-section-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-project-title {
+    text-align: center;
+}
